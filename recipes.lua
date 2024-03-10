@@ -14,6 +14,17 @@ minetest.register_craft({
    }
 })
 
+--Water collector
+
+minetest.register_craft({
+   output = "de_nenio:water_collector_empty",
+   recipe = {
+      {"",                   "default:stone", ""},
+      {"",                   "default:stone", ""},
+      {"stairs:stair_stone", "default:stone", "stairs:stair_stone"}
+   }
+})
+
 --Fill water from bucket to bottles
 minetest.register_craft({
    output = "de_nenio:glass_bottle_water 8",
@@ -46,55 +57,55 @@ minetest.register_craft({
 --Hammers
 
 minetest.register_craft({
-	output = 'de_nenio:hammer_wood',
+	output = "de_nenio:hammer_wood",
 	recipe = {
-		{'', 'group:wood', ''},
-		{'', 'group:stick', 'group:wood'},
-		{'group:stick', '', ''},
+		{"",            "group:wood",  ""},
+		{"",            "group:stick", "group:wood"},
+		{"group:stick", "",            ""},
 	}
 })
 
 minetest.register_craft({
-	output = 'de_nenio:hammer_stone',
+	output = "de_nenio:hammer_stone",
 	recipe = {
-		{'', 'default:cobble', ''},
-		{'', 'group:stick', 'default:cobble'},
-		{'group:stick', '', ''},
+		{"",            "default:cobble", ""},
+		{"",            "group:stick",    "default:cobble"},
+		{"group:stick", "",               ""},
 	}
 })
 
 minetest.register_craft({
-	output = 'de_nenio:hammer_bronze',
+	output = "de_nenio:hammer_bronze",
 	recipe = {
-		{'', 'default:bronze_ingot', ''},
-		{'', 'group:stick', 'default:bronze_ingot'},
-		{'group:stick', '', ''},
+		{"",            "default:bronze_ingot", ""},
+		{"",            "group:stick",          "default:bronze_ingot"},
+		{"group:stick", "",                     ""},
 	}
 })
 
 minetest.register_craft({
-	output = 'de_nenio:hammer_steel',
+	output = "de_nenio:hammer_steel",
 	recipe = {
-		{'', 'default:steel_ingot', ''},
-		{'', 'group:stick', 'default:steel_ingot'},
-		{'group:stick', '', ''},
+		{"",            "default:steel_ingot", ""},
+		{"",            "group:stick",         "default:steel_ingot"},
+		{"group:stick", "",                    ""},
 	}
 })
 
 minetest.register_craft({
-	output = 'de_nenio:hammer_mese',
+	output = "de_nenio:hammer_mese",
 	recipe = {
-		{'', 'default:mese_crystal', ''},
-		{'', 'group:stick', 'default:mese_crystal'},
-		{'group:stick', '', ''},
+		{"",            "default:mese_crystal", ""},
+		{"",            "group:stick",          "default:mese_crystal"},
+		{"group:stick", "",                     ""},
 	}
 })
 
 minetest.register_craft({
-	output = 'de_nenio:hammer_diamond',
+	output = "de_nenio:hammer_diamond",
 	recipe = {
-		{'', 'default:diamond', ''},
-		{'', 'group:stick', 'default:diamond'},
-		{'group:stick', '', ''},
+		{"",            "default:diamond", ""},
+		{"",            "group:stick",     "default:diamond"},
+		{"group:stick", "",                ""},
 	}
 })
