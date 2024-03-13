@@ -6,8 +6,8 @@ minetest.register_node("de_nenio:sieve_empty", {
 	description = S("Sieve"),
 	drawtype = "nodebox",
     tiles = {
-          "de_nenio_sieve_empty_td.png",  -- TOP
-          "de_nenio_sieve_empty_td.png",  -- BOTTOM
+          "default_wood.png^de_nenio_sieve_empty_td.png",  -- TOP
+          "default_wood.png^de_nenio_sieve_empty_td.png",  -- BOTTOM
           "default_wood.png",  -- LEFT
           "default_wood.png",  -- RIGHT
           "default_wood.png",  -- FRONT
@@ -25,7 +25,17 @@ minetest.register_node("de_nenio:sieve_empty", {
          { 0.4375,  0.0000, -0.4375,  0.3125,  0.1250,  0.4375}, --Corpse E
          { 0.4375,  0.0000, -0.4375, -0.3125,  0.1250, -0.3125}, --Corpse S
          { 0.4375,  0.0000,  0.4375, -0.3125,  0.1250,  0.3125}, --Corpse N
-         {-0.3125,  0.0000, -0.3125,  0.3125,  0.0000,  0.3125}, --Grid
+         --{-0.3125,  0.0000, -0.3125,  0.3125,  0.0000,  0.3125}, --Grid
+         {-0.3125,  0.0000, -0.3125,  -0.2500,  0.0000,  0.3125}, --Stick 1
+         { 0.3125,  0.0000, -0.3125,   0.2500,  0.0000,  0.3125}, --Stick 2
+         {-0.3125,  0.0000, -0.3125,   0.3125,  0.0000, -0.2500}, --Stick 3
+         {-0.3125,  0.0000,  0.3125,   0.3125,  0.0000,  0.2500}, --Stick 4
+         {-0.3125,  0.0000,  0.1875,   0.3125,  0.0000,  0.1250}, --Stick 5
+         {-0.3125,  0.0000, -0.1875,   0.3125,  0.0000, -0.1250}, --Stick 6
+				 { 0.1875,  0.0000, -0.3125,   0.1250,  0.0000,  0.3125}, --Stick 7
+				 {-0.1875,  0.0000, -0.3125,  -0.1250,  0.0000,  0.3125}, --Stick 8
+         {-0.0625,  0.0000, -0.3125,  0.0625,  0.0000,  0.3125}, --Cross 1
+         {-0.3125,  0.0000, -0.0625,  0.3125,  0.0000,  0.0625}, --Cross 2
 		},
 	},
 
@@ -96,12 +106,12 @@ minetest.register_node("de_nenio:sieve_gravel_8", {
 	description = S("Sieve with gravel"),
 	drawtype = "nodebox",
     tiles = {
-          "de_nenio_sieve_gravel_t.png",  -- TOP
-          "de_nenio_sieve_gravel_b.png",  -- BOTTOM
-          "de_nenio_sieve_gravel_8.png",  -- LEFT
-          "de_nenio_sieve_gravel_8.png",  -- RIGHT
-          "de_nenio_sieve_gravel_8.png",  -- FRONT
-          "de_nenio_sieve_gravel_8.png",  -- BACK
+          "default_wood.png^de_nenio_sieve_gravel_t.png",  -- TOP
+          "default_wood.png^de_nenio_sieve_gravel_b.png",  -- BOTTOM
+          "default_wood.png^de_nenio_sieve_gravel_8.png",  -- LEFT
+          "default_wood.png^de_nenio_sieve_gravel_8.png",  -- RIGHT
+          "default_wood.png^de_nenio_sieve_gravel_8.png",  -- FRONT
+          "default_wood.png^de_nenio_sieve_gravel_8.png",  -- BACK
         },
 
 	node_box = {
@@ -133,12 +143,12 @@ minetest.register_node("de_nenio:sieve_gravel_6", {
 	description = S("Sieve with gravel"),
 	drawtype = "nodebox",
     tiles = {
-          "de_nenio_sieve_gravel_t.png",  -- TOP
-          "de_nenio_sieve_gravel_b.png",  -- BOTTOM
-          "de_nenio_sieve_gravel_6.png",  -- LEFT
-          "de_nenio_sieve_gravel_6.png",  -- RIGHT
-          "de_nenio_sieve_gravel_6.png",  -- FRONT
-          "de_nenio_sieve_gravel_6.png",  -- BACK
+          "default_wood.png^de_nenio_sieve_gravel_t.png",  -- TOP
+          "default_wood.png^de_nenio_sieve_gravel_b.png",  -- BOTTOM
+          "default_wood.png^de_nenio_sieve_gravel_6.png",  -- LEFT
+          "default_wood.png^de_nenio_sieve_gravel_6.png",  -- RIGHT
+          "default_wood.png^de_nenio_sieve_gravel_6.png",  -- FRONT
+          "default_wood.png^de_nenio_sieve_gravel_6.png",  -- BACK
         },
 
 	node_box = {
@@ -169,12 +179,12 @@ minetest.register_node("de_nenio:sieve_gravel_4", {
 	description = S("Sieve with gravel"),
 	drawtype = "nodebox",
     tiles = {
-          "de_nenio_sieve_gravel_t.png",  -- TOP
-          "de_nenio_sieve_gravel_b.png",  -- BOTTOM
-          "de_nenio_sieve_gravel_4.png",  -- LEFT
-          "de_nenio_sieve_gravel_4.png",  -- RIGHT
-          "de_nenio_sieve_gravel_4.png",  -- FRONT
-          "de_nenio_sieve_gravel_4.png",  -- BACK
+          "default_wood.png^de_nenio_sieve_gravel_t.png",  -- TOP
+          "default_wood.png^de_nenio_sieve_gravel_b.png",  -- BOTTOM
+          "default_wood.png^de_nenio_sieve_gravel_4.png",  -- LEFT
+          "default_wood.png^de_nenio_sieve_gravel_4.png",  -- RIGHT
+          "default_wood.png^de_nenio_sieve_gravel_4.png",  -- FRONT
+          "default_wood.png^de_nenio_sieve_gravel_4.png",  -- BACK
         },
 
 	node_box = {
@@ -205,8 +215,8 @@ minetest.register_node("de_nenio:sieve_gravel_2", {
 	description = S("Sieve with gravel"),
 	drawtype = "nodebox",
     tiles = {
-          "de_nenio_sieve_gravel_t.png",  -- TOP
-          "de_nenio_sieve_gravel_b.png",  -- BOTTOM
+          "default_wood.png^de_nenio_sieve_gravel_t.png",  -- TOP
+          "default_wood.png^de_nenio_sieve_gravel_b.png",  -- BOTTOM
           "default_wood.png",  -- LEFT
           "default_wood.png",  -- RIGHT
           "default_wood.png",  -- FRONT
@@ -279,12 +289,12 @@ minetest.register_node("de_nenio:sieve_dirt_8", {
 	description = S("Sieve with dirt"),
 	drawtype = "nodebox",
     tiles = {
-          "de_nenio_sieve_dirt_t.png",  -- TOP
-          "de_nenio_sieve_dirt_b.png",  -- BOTTOM
-          "de_nenio_sieve_dirt_8.png",  -- LEFT
-          "de_nenio_sieve_dirt_8.png",  -- RIGHT
-          "de_nenio_sieve_dirt_8.png",  -- FRONT
-          "de_nenio_sieve_dirt_8.png",  -- BACK
+          "default_wood.png^de_nenio_sieve_dirt_t.png",  -- TOP
+          "default_wood.png^de_nenio_sieve_dirt_b.png",  -- BOTTOM
+          "default_wood.png^de_nenio_sieve_dirt_8.png",  -- LEFT
+          "default_wood.png^de_nenio_sieve_dirt_8.png",  -- RIGHT
+          "default_wood.png^de_nenio_sieve_dirt_8.png",  -- FRONT
+          "default_wood.png^de_nenio_sieve_dirt_8.png",  -- BACK
         },
 
 	node_box = {
@@ -316,12 +326,12 @@ minetest.register_node("de_nenio:sieve_dirt_6", {
 	description = S("Sieve with dirt"),
 	drawtype = "nodebox",
     tiles = {
-          "de_nenio_sieve_dirt_t.png",  -- TOP
-          "de_nenio_sieve_dirt_b.png",  -- BOTTOM
-          "de_nenio_sieve_dirt_6.png",  -- LEFT
-          "de_nenio_sieve_dirt_6.png",  -- RIGHT
-          "de_nenio_sieve_dirt_6.png",  -- FRONT
-          "de_nenio_sieve_dirt_6.png",  -- BACK
+          "default_wood.png^de_nenio_sieve_dirt_t.png",  -- TOP
+          "default_wood.png^de_nenio_sieve_dirt_b.png",  -- BOTTOM
+          "default_wood.png^de_nenio_sieve_dirt_6.png",  -- LEFT
+          "default_wood.png^de_nenio_sieve_dirt_6.png",  -- RIGHT
+          "default_wood.png^de_nenio_sieve_dirt_6.png",  -- FRONT
+          "default_wood.png^de_nenio_sieve_dirt_6.png",  -- BACK
         },
 
 	node_box = {
@@ -352,12 +362,12 @@ minetest.register_node("de_nenio:sieve_dirt_4", {
 	description = S("Sieve with dirt"),
 	drawtype = "nodebox",
     tiles = {
-          "de_nenio_sieve_dirt_t.png",  -- TOP
-          "de_nenio_sieve_dirt_b.png",  -- BOTTOM
-          "de_nenio_sieve_dirt_4.png",  -- LEFT
-          "de_nenio_sieve_dirt_4.png",  -- RIGHT
-          "de_nenio_sieve_dirt_4.png",  -- FRONT
-          "de_nenio_sieve_dirt_4.png",  -- BACK
+          "default_wood.png^de_nenio_sieve_dirt_t.png",  -- TOP
+          "default_wood.png^de_nenio_sieve_dirt_b.png",  -- BOTTOM
+          "default_wood.png^de_nenio_sieve_dirt_4.png",  -- LEFT
+          "default_wood.png^de_nenio_sieve_dirt_4.png",  -- RIGHT
+          "default_wood.png^de_nenio_sieve_dirt_4.png",  -- FRONT
+          "default_wood.png^de_nenio_sieve_dirt_4.png",  -- BACK
         },
 
 	node_box = {
@@ -388,12 +398,12 @@ minetest.register_node("de_nenio:sieve_dirt_2", {
 	description = S("Sieve with dirt"),
 	drawtype = "nodebox",
     tiles = {
-          "de_nenio_sieve_dirt_t.png",  -- TOP
-          "de_nenio_sieve_dirt_b.png",  -- BOTTOM
-          "default_wood.png",  -- LEFT
-          "default_wood.png",  -- RIGHT
-          "default_wood.png",  -- FRONT
-          "default_wood.png",  -- BACK
+          "default_wood.png^de_nenio_sieve_dirt_t.png",  -- TOP
+          "default_wood.png^de_nenio_sieve_dirt_b.png",  -- BOTTOM
+          "default_wood.png^default_wood.png",  -- LEFT
+          "default_wood.png^default_wood.png",  -- RIGHT
+          "default_wood.png^default_wood.png",  -- FRONT
+          "default_wood.png^default_wood.png",  -- BACK
         },
 
 	node_box = {
