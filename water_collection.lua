@@ -46,7 +46,7 @@ minetest.register_node("de_nenio:water_collector_ready", {
 	description = S("Full Water Collector"),
 	drawtype = "nodebox",
     tiles = {
-          "de_nenio_water_collector_ready.png", -- TOP
+          "default_stone.png^de_nenio_water_collector_ready.png", -- TOP
           "default_stone.png",  -- BOT
           "default_stone.png",  -- LEFT
           "default_stone.png",  -- RIGHT
