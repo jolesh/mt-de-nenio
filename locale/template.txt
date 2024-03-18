@@ -1,4 +1,7 @@
 # textdomain: de_nenio
+De Nenio=
+Adds possibilities to get items normally unobtainable in skyblock through new mechanics =
+
 Cobble Bucket=
 Wood Hammer=
 Stone Hammer=
